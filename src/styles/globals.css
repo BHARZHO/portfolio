@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@import "./variables.css";
+@import "./animations.css";
+
+@variant dark (&:where(.dark, .dark *));
+
+@theme {
+  /* Mapping HSL custom properties to design theme utilities */
+  --color-bg-primary: hsl(var(--bg-primary));
+  --color-bg-secondary: hsl(var(--bg-secondary));
+  --color-bg-glass: hsl(var(--bg-glass));
+  
+  --color-text-primary: hsl(var(--text-primary));
+  --color-text-secondary: hsl(var(--text-secondary));
+  --color-text-muted: hsl(var(--text-muted));
+  
+  --color-brand-primary: hsl(var(--primary));
+  --color-brand-primary-hover: hsl(var(--primary-hover));
+  --color-brand-primary-light: hsl(var(--primary-light));
+  
+  --color-brand-secondary: hsl(var(--secondary));
+  --color-brand-secondary-hover: hsl(var(--secondary-hover));
+  --color-brand-secondary-light: hsl(var(--secondary-light));
+  
+  --color-success: hsl(var(--success));
+  --color-error: hsl(var(--error));
+  --color-warning: hsl(var(--warning));
+  
+  --color-border-custom: hsl(var(--border));
+  --color-ring-custom: hsl(var(--ring));
+  
+  --shadow-glass: var(--shadow-glass);
+  --shadow-sm: var(--shadow-sm);
+  --shadow-md: var(--shadow-md);
+  --shadow-lg: var(--shadow-lg);
+  
+  --radius-sm: var(--radius-sm);
+  --radius-md: var(--radius-md);
+  --radius-lg: var(--radius-lg);
+  --radius-xl: var(--radius-xl);
+  --radius-2xl: var(--radius-2xl);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: var(--color-bg-primary);
+    color: var(--color-text-primary);
+    font-family: var(--font-sans);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+}
