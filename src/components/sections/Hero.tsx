@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/Button';
 import { SocialLinks } from '@/components/ui/SocialLinks';
 import { staggerContainer, slideUp, fadeIn } from '@/utils/animations';
 import { FileText, ArrowRight } from 'lucide-react';
-import resumeFile from '@/assets/resume/Resume - Abdul-salam Abdul-basit.pdf';
+import resumeFile from '@/assets/resume/Resume - Abdul-salam Abdul-basit - Google Drive.pdf';
 
 export const Hero = () => {
   const navigate = useNavigate();

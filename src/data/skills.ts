@@ -1,74 +1,14 @@
 import type { Skill } from '../types';
 
 export const skills: Skill[] = [
-  // Frontend
-  {
-    id: 'skill-react',
-    name: 'React',
-    category: 'Frontend',
-    iconName: 'Atom',
-    level: 85,
-  },
-  {
-    id: 'skill-ts',
-    name: 'TypeScript',
-    category: 'Frontend',
-    iconName: 'FileCode',
-    level: 80,
-  },
-  {
-    id: 'skill-js',
-    name: 'JavaScript (ES6+)',
-    category: 'Frontend',
-    iconName: 'Braces',
-    level: 85,
-  },
-  {
-    id: 'skill-html',
-    name: 'HTML5',
-    category: 'Frontend',
-    iconName: 'Globe',
-    level: 90,
-  },
-  {
-    id: 'skill-css',
-    name: 'CSS3',
-    category: 'Frontend',
-    iconName: 'Palette',
-    level: 85,
-  },
-  {
-    id: 'skill-tailwind',
-    name: 'Tailwind CSS',
-    category: 'Frontend',
-    iconName: 'Layers',
-    level: 90,
-  },
-
-  // Backend
+  // Technical & Programming Skills
   {
     id: 'skill-csharp',
     name: 'C#',
-    category: 'Backend',
+    category: 'Backend & Languages',
     iconName: 'Hash',
     level: 85,
   },
-  {
-    id: 'skill-aspnet',
-    name: 'ASP.NET Core MVC',
-    category: 'Backend',
-    iconName: 'Server',
-    level: 80,
-  },
-  {
-    id: 'skill-efcore',
-    name: 'Entity Framework Core',
-    category: 'Backend',
-    iconName: 'Cpu',
-    level: 75,
-  },
-
-  // Database
   {
     id: 'skill-mysql',
     name: 'MySQL',
@@ -76,13 +16,85 @@ export const skills: Skill[] = [
     iconName: 'Database',
     level: 80,
   },
-
-  // Tools
   {
-    id: 'skill-git',
-    name: 'Git',
+    id: 'skill-html',
+    name: 'HTML',
+    category: 'Frontend',
+    iconName: 'Globe',
+    level: 90,
+  },
+  {
+    id: 'skill-css',
+    name: 'CSS',
+    category: 'Frontend',
+    iconName: 'Palette',
+    level: 85,
+  },
+  {
+    id: 'skill-js',
+    name: 'JavaScript',
+    category: 'Frontend',
+    iconName: 'Braces',
+    level: 85,
+  },
+
+  // Design & Prototyping Skills
+  {
+    id: 'skill-uiux',
+    name: 'UI/UX Design',
+    category: 'Design & UX',
+    iconName: 'Layout',
+    level: 90,
+  },
+  {
+    id: 'skill-prototyping',
+    name: 'Prototyping',
+    category: 'Design & UX',
+    iconName: 'Layers',
+    level: 85,
+  },
+  {
+    id: 'skill-wireframing',
+    name: 'Wireframing',
+    category: 'Design & UX',
+    iconName: 'Component',
+    level: 85,
+  },
+  {
+    id: 'skill-interface-design',
+    name: 'Interface Design',
+    category: 'Design & UX',
+    iconName: 'Monitor',
+    level: 85,
+  },
+
+  // Tools & Platforms
+  {
+    id: 'skill-figma',
+    name: 'Figma',
     category: 'Tools',
-    iconName: 'GitBranch',
+    iconName: 'Figma',
+    level: 90,
+  },
+  {
+    id: 'skill-vscode',
+    name: 'VS Code',
+    category: 'Tools',
+    iconName: 'Terminal',
+    level: 90,
+  },
+  {
+    id: 'skill-vs',
+    name: 'Visual Studio',
+    category: 'Tools',
+    iconName: 'Code',
+    level: 85,
+  },
+  {
+    id: 'skill-bootstrap',
+    name: 'Bootstrap',
+    category: 'Tools & Frameworks',
+    iconName: 'Grid',
     level: 85,
   },
   {
@@ -93,17 +105,10 @@ export const skills: Skill[] = [
     level: 90,
   },
   {
-    id: 'skill-vs',
-    name: 'Visual Studio',
+    id: 'skill-googledoc',
+    name: 'Google Docs',
     category: 'Tools',
-    iconName: 'Monitor',
-    level: 85,
-  },
-  {
-    id: 'skill-vscode',
-    name: 'VS Code',
-    category: 'Tools',
-    iconName: 'Terminal',
+    iconName: 'FileText',
     level: 90,
   },
 ];

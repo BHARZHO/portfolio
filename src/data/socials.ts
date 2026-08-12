@@ -21,7 +21,7 @@ export const socials: SocialLink[] = [
 export const contactInfo: ContactInfo = {
   email: 'abdulbasitabdulsalam92@gmail.com',
   phone: '+234 808 115 7417',
-  location: 'Lagos, Nigeria',
+  location: 'No. 18, apaola street, Ikosi Ketu, Lagos, Nigeria',
   github: 'https://github.com/BHARZHO',
   linkedin: 'https://www.linkedin.com/in/abdul-salam-abdul-basit-ba9170265/',
 };
